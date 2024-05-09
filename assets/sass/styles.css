@@ -156,6 +156,9 @@ ul {
   transition: 500ms ease;
   background: transparent;
 }
+#header .navbar .container {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.231);
+}
 #header .navbar .dropdown .dropdown-item {
   text-align: right;
 }
@@ -169,6 +172,9 @@ ul {
 }
 #header .navbar.scrolled {
   background: #000;
+}
+#header .navbar.scrolled .container {
+  border-bottom: none;
 }
 
 /*---------- Mobile Menu ----------*/
@@ -348,11 +354,8 @@ body.nav-active .nav__list-item:nth-child(4) {
 .banner-section .banner-content .banner-logo {
   width: 40%;
 }
-.banner-section .banner-content .phone-img img {
-  width: 90%;
-}
-.banner-section .banner-content p {
-  line-height: 30px;
+.banner-section .banner-content .phone-img {
+  text-align: left;
 }
 .banner-section .Scroll a {
   text-decoration: none;

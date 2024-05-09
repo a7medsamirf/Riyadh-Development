@@ -99,6 +99,9 @@ ul {
   .navbar{
     transition:500ms ease;
     background:transparent;
+    .container{
+      border-bottom: 1px solid rgba(255, 255, 255, 0.231);
+    }
     .dropdown{
       .dropdown-item{
         text-align: right;
@@ -116,6 +119,9 @@ ul {
   }
   .navbar.scrolled{
     background:#000;
+    .container{
+      border-bottom: none
+    }
   }
 
 }
@@ -303,13 +309,8 @@ body.nav-active{
     width: 40%;
   }
   .phone-img{
-    img{
-      width: 90%;
-    }
+    text-align: left;
   }
- p{
-  line-height: 30px;
- }
 }
 .Scroll{
   a{
