@@ -110,6 +110,11 @@ p {
   line-height: 28px;
   font-size: 16px;
 }
+@media (max-width: 767.98px) {
+  p {
+    font-size: 12px;
+  }
+}
 
 ul {
   list-style: none;
@@ -606,6 +611,11 @@ body.nav-active .nav__list-item:nth-child(4) {
   font-weight: 600;
   line-height: 160%;
 }
+@media (max-width: 767.98px) {
+  #Download h2 {
+    font-size: 25px;
+  }
+}
 #Download .phone-img {
   position: relative;
 }
@@ -624,6 +634,11 @@ body.nav-active .nav__list-item:nth-child(4) {
 #footer .title {
   font-size: 14px;
   font-weight: 400;
+}
+@media (max-width: 767.98px) {
+  #footer .title {
+    font-size: 10px;
+  }
 }
 #footer .social-icons {
   position: relative;
